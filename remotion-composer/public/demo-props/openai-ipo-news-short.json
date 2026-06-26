@@ -1,0 +1,177 @@
+{
+  "theme": "clean-professional",
+  "themeConfig": {
+    "primaryColor": "#0F766E",
+    "accentColor": "#F59E0B",
+    "backgroundColor": "#F8FAFC",
+    "surfaceColor": "#FFFFFF",
+    "textColor": "#111827",
+    "mutedTextColor": "#64748B",
+    "headingFont": "Inter, Malgun Gothic, system-ui, sans-serif",
+    "bodyFont": "Inter, Malgun Gothic, system-ui, sans-serif",
+    "monoFont": "JetBrains Mono, Consolas, monospace",
+    "chartColors": [
+      "#0F766E",
+      "#F59E0B",
+      "#2563EB",
+      "#DC2626",
+      "#7C3AED",
+      "#0891B2"
+    ],
+    "springConfig": {
+      "damping": 18,
+      "stiffness": 110,
+      "mass": 1
+    },
+    "transitionDuration": 0.35,
+    "captionHighlightColor": "#F59E0B",
+    "captionBackgroundColor": "rgba(17, 24, 39, 0.82)"
+  },
+  "cuts": [
+    {
+      "id": "hook",
+      "source": "",
+      "type": "hero_title",
+      "in_seconds": 0,
+      "out_seconds": 4.2,
+      "text": "OpenAI IPO: 2027?",
+      "heroSubtitle": "AI market watch",
+      "backgroundColor": "#F8FAFC"
+    },
+    {
+      "id": "timeline",
+      "source": "",
+      "type": "comparison",
+      "in_seconds": 4.2,
+      "out_seconds": 10.2,
+      "title": "The timeline is shifting",
+      "leftLabel": "Market hope",
+      "leftValue": "2026",
+      "rightLabel": "Reported path",
+      "rightValue": "2027?",
+      "accentColor": "#F59E0B",
+      "backgroundColor": "#FFFFFF",
+      "color": "#111827"
+    },
+    {
+      "id": "reported",
+      "source": "",
+      "type": "callout",
+      "in_seconds": 10.2,
+      "out_seconds": 16.4,
+      "title": "Report",
+      "text": "Reuters, citing NYT: OpenAI is leaning toward waiting until 2027 for an IPO.",
+      "callout_type": "info",
+      "accentColor": "#0F766E",
+      "backgroundColor": "#ECFDF5",
+      "color": "#111827"
+    },
+    {
+      "id": "pressure",
+      "source": "",
+      "type": "kpi_grid",
+      "in_seconds": 16.4,
+      "out_seconds": 24.0,
+      "title": "Why wait?",
+      "chartData": [
+        {
+          "label": "Valuation",
+          "value": 1,
+          "change": 0,
+          "suffix": "T target"
+        },
+        {
+          "label": "Volatility",
+          "value": 3,
+          "change": 0,
+          "suffix": " pressures"
+        },
+        {
+          "label": "Public test",
+          "value": 1,
+          "change": 0,
+          "suffix": " market"
+        }
+      ],
+      "columns": 3,
+      "chartColors": [
+        "#0F766E",
+        "#F59E0B",
+        "#DC2626"
+      ],
+      "chartAnimation": "cascade",
+      "backgroundColor": "#FFFFFF"
+    },
+    {
+      "id": "softbank",
+      "source": "",
+      "type": "stat_card",
+      "in_seconds": 24.0,
+      "out_seconds": 30.0,
+      "stat": "SoftBank",
+      "subtitle": "Sensitive to OpenAI valuation",
+      "accentColor": "#2563EB",
+      "backgroundColor": "#F8FAFC",
+      "color": "#111827"
+    },
+    {
+      "id": "meaning",
+      "source": "",
+      "type": "callout",
+      "in_seconds": 30.0,
+      "out_seconds": 38.2,
+      "title": "Meaning",
+      "text": "This is not just a delayed listing. It is AI hype meeting public-market math.",
+      "callout_type": "warning",
+      "accentColor": "#F59E0B",
+      "backgroundColor": "#FFFBEB",
+      "color": "#111827"
+    },
+    {
+      "id": "close",
+      "source": "",
+      "type": "hero_title",
+      "in_seconds": 38.2,
+      "out_seconds": 44.2,
+      "text": "AI Rally, Next Test",
+      "heroSubtitle": "From hype to numbers",
+      "backgroundColor": "#F8FAFC"
+    }
+  ],
+  "overlays": [
+    {
+      "type": "section_title",
+      "in_seconds": 4.5,
+      "out_seconds": 9.5,
+      "text": "IPO WATCH",
+      "subtitle": "2026 -> 2027?",
+      "accentColor": "#F59E0B",
+      "position": "top-left"
+    },
+    {
+      "type": "stat_reveal",
+      "in_seconds": 16.8,
+      "out_seconds": 22.5,
+      "text": "3",
+      "subtitle": "Market pressures",
+      "accentColor": "#DC2626",
+      "position": "bottom-right"
+    },
+    {
+      "type": "section_title",
+      "in_seconds": 30.4,
+      "out_seconds": 37.2,
+      "text": "WHAT IT MEANS",
+      "subtitle": "Valuation check",
+      "accentColor": "#0F766E",
+      "position": "top-left"
+    }
+  ],
+  "captions": [],
+  "audio": {
+    "narration": {
+      "src": "openai-ipo-news-short/narration.wav",
+      "volume": 1
+    }
+  }
+}
